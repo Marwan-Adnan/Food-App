@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00AC9393">
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="60dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bg_dish"
+                android:alpha="0.3"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/bg_dish"
+                />
+
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/imgDish"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/bu"
+            android:padding="15dp"
+            />
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bg_right"
+                android:alpha="0.3"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bg_right"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/r"
+                android:padding="15dp"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="120dp"
+            >
+
+
+            <TextView
+                android:id="@+id/txtDish"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:text="Burger"
+                android:textAllCaps="true"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:paddingBottom="1dp"
+                android:textColor="@color/black"
+                android:textSize="20dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtnumitem"
+                android:text="30 items"
+                android:textSize="15sp"
+                android:textColor="#8A8A8A"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1">
+
+            </TextView>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

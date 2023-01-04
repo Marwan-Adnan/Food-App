@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.foodorderingapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.foodorderingapp.ui.profile.ProfileFragment"
+        android:label="@string/menu_Profie"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.foodorderingapp.ui.setting.SettingFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/nav_suppor"
+        android:name="com.example.foodorderingapp.ui.support.SupportFragment"
+        android:label="@string/menu_Support"
+        tools:layout="@layout/fragment_support" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.foodorderingapp.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+
+</navigation>
